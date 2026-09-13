@@ -14,5 +14,5 @@ async def on_ready():
 async def ticket(ctx):
     await ctx.send("Ticket system is active! Click below to create a ticket.")
 
-bot.run("MTU0NTYyODI5NDcyMzAxODgzMg.GWG2Di.3s5UTHmUUbqaulQjlCRs9KPbb-LuiyhsVpFtDY")
-
+import os
+bot.run(os.getenv("DISCORD_TOKEN"))
