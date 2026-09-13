@@ -14,5 +14,4 @@ print(f'Logged in as {bot.user.name}')
 async def ticket(ctx):
 await ctx.send("Ticket system is active! Click below to create a ticket.") 
 
-
-bot.run("MTU0NTYyODI5NDcyMzAxODgzMg.GicVJ1.S1KwqJJEfGjOz5OHu8Tt69-0JATtE2PzHSabzA")
+bot.run("MTU0NTYyODI5NDcyMzAxODgzMg.GWG2Di.3s5UTHmUUbqaulQjlCRs9KPbb-LuiyhsVpFtDY")
